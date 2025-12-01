@@ -360,12 +360,12 @@ class Ui_MainWindow(QtWidgets.QWidget):
 
 class Robot(object):
     def sent(self, text=''):
-        # API_KEY = 'HpXttg7t71Y5t6qIn7kmQGUM'
-        # SECRET_KEY = 'ivzPCvZ9DGSyWsAksUlx0wBQSEsA0npb'
+        # API_KEY = 'HpXtn7kmQGUM'
+        # SECRET_KEY = 'ivzPCvZ9DGSyWsAksUlx0wBQpb'
         # url = "https://aip.baidubce.com/oauth/2.0/token"
         # params = {"grant_type": "client_credentials", "client_id": API_KEY, "client_secret": SECRET_KEY}
         # access_token = str(requests.post(url, params=params).json().get("access_token"))
-        access_token = '24.43119cc5d8ac9d1375f1c8c10f3b6ba1.2592000.1697880688.282335-39737772'
+        access_token = '24.43119cc5d8ac5f1c8c10f3b6ba1.2592000.1697880688.282335-39'    # change this token
         url = f"https://aip.baidubce.com/rpc/2.0/ai_custom/v1/wenxinworkshop/chat/eb-instant?access_token={access_token}"
 
         payload = json.dumps({
@@ -393,3 +393,4 @@ if __name__ == '__main__':
     ui = Ui_MainWindow()
     ui.show()
     exit(app.exec_())
+
