@@ -140,4 +140,3 @@ python main.py
 感谢以下项目及平台提供的支持：
 - [PyQt5](https://pypi.org/project/PyQt5/) - 强大的 Python 桌面 GUI 框架
 - [百度智能云千帆大模型平台](https://cloud.baidu.com/) - 提供稳定的大模型 API 支持
-```
